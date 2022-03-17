@@ -1,0 +1,36 @@
+#rate {
+	min-width: 350px;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+	font-size: large;
+}
+#rate td:not(:last-child), #rate th {
+	text-align: center;
+}
+#rate td {
+	width:  80px;
+	padding: 4px;
+	border-bottom: 1px solid lightgray;
+}
+#rate .valute {
+	cursor: pointer;
+}
+#rate .valute:hover {
+	background: lemonchiffon;
+}
+#rate .valute:active {
+	background: bisque;
+}
+.valute-table {
+	position: absolute;
+	width: 400px;
+	height: 350px;
+	background: whitesmoke;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	padding: 8px;
+}
+.valute-table tr:hover {
+	outline: 1px solid gray;
+	border-radius: 2px;
+}
