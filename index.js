@@ -83,7 +83,6 @@ function viewRate() {
 }
 
 async function addMessageError(table, error) {
-	console.log('%cError', 'color:darkorange', error);
 	table.insertAdjacentHTML('beforeend', '<tr><td colspan="3" class="error">Не удалось загрузить данные</td></tr>');
 }
 
